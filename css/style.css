@@ -331,19 +331,16 @@ header h1 a img {
 
 /****Blocks****/
 
-.banner {
-}
-
 .bn__1 {
-    background-color: #86cdd7 !important;
+    background-color: #691b97 !important;
 }
 
 .bn__2 {
-    background-color: #b69c3c !important;
+    background-color: #971b43 !important;
 }
 
 .bn__3 {
-    background-color: #79b86b !important;
+    background-color: #2d653c !important;
 }
 
 .bann_capt {
@@ -357,12 +354,16 @@ header h1 a img {
 .ban_list {
     color: #fff;
     margin-left: 55px;
-    font-size: medium;
-    list-style-type: disc;
+    font-size: large;
+    font-weight: 500;
 }
 
 .ban_list li {
     margin: 5px;
+}
+
+.ban_list li > i {
+    color: #eb94b1;
 }
 
 .bann_title {
@@ -693,9 +694,6 @@ header h1 a img {
     float: left;
 }
 
-.address1 dt {
-}
-
 .address1+.address1 {
     margin-left: 60px;
 }
@@ -971,8 +969,6 @@ header h1 a img {
         width: 180px;
     } 
 
-    .blog table {
-    } 
 
     .blog table td:first-child  .fa {
         display: block;
