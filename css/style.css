@@ -64,10 +64,12 @@ input, textarea {
 
 
 img {
-    max-width: 250px;
+    max-width: 100%;
 }
 
-
+.logo {
+    max-width: 250px;
+}
 
 /****Heads****/
 
